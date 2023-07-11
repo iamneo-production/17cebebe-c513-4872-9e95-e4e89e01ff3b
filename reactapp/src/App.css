@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    font-family: 'Rubik', sans-serif;
+    background-image: url("C:\React\crimetrackingapplication\public\Images\c1.jpeg");
+    height: 713px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.childElement {
+    display: flex;
+}
+
+.child1 {
+    display: inline-block;
+    color: white;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.child2 {
+    display: inline-block;
+    height: 250px;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.case {
+    background: hsla(0, 87%, 79%, 1);
+
+    background: linear-gradient(90deg, hsla(0, 87%, 79%, 1) 0%, hsla(6, 77%, 85%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(0, 87%, 79%, 1) 0%, hsla(6, 77%, 85%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(0, 87%, 79%, 1) 0%, hsla(6, 77%, 85%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F89999", endColorstr="#F6C0BA", GradientType=1);
+    height: 713px;
+}
+
+.form {
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    color: white;
+    border-radius: 20px;
+}
